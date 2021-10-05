@@ -63,3 +63,16 @@ nav {
     padding: 7px 30px;
     border-bottom: 3px #dbdee1;
 }
+
+.listcontainer {
+    padding: 30px;
+
+}
+
+.list {
+    list-style-type: none;
+}
+
+.sublist {
+    list-style-type: none;
+}

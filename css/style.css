@@ -64,6 +64,7 @@ nav {
     border-bottom: 3px #dbdee1;
 }
 
+/*list*/
 .listcontainer {
     padding: 30px;
 
@@ -71,8 +72,38 @@ nav {
 
 .list {
     list-style-type: none;
+    line-height: 40px;
 }
 
 .sublist {
     list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.task {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.flag {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.label {
+    
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 13px;
+    border: 2px solid black;
+    padding: 5px;
+    line-height: 15px;
+    
 }

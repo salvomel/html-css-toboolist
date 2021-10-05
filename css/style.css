@@ -60,8 +60,8 @@ body {
 }
 
 nav {
-    padding: 7px 30px;
-    border-bottom: 3px #dbdee1;
+    border-bottom: 2px solid #dbdee1;
+    padding: 20px; 
 }
 
 /*list*/
@@ -95,15 +95,46 @@ nav {
     text-align: center;
     line-height: 20px;
     font-size: 15px;
+    font-weight: bold;
+}
+ 
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
 }
 
 .label {
-    
-    font-size: 15px;
+    color: white;
+    font-size: 12px;
     display: inline-block;
     border-radius: 13px;
-    border: 2px solid black;
-    padding: 5px;
-    line-height: 15px;
-    
+    padding: 7px;
+    line-height: 10px;
+}
+
+.ed {
+    background-color: #45abea;
+}
+
+.q1 {
+    background-color: #9c72e4;
+}
+
+.res {
+    background-color: #64c0a9;
+}
+
+.mob {
+    background-color: #f29e33;
+}
+
+.web {
+    background-color: #d863a1;
+}
+
+.sal {
+    background-color: #b0c926;
 }

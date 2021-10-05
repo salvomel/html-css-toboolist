@@ -8,6 +8,7 @@
 /* HEADER */
 header {
     padding: 15px 20px;
+    background-color: white;
 }
 
 header img {
@@ -26,4 +27,39 @@ header img {
 /*COMMON*/
 body {
     font-family: Arial;
+    background-color: #f6f8f9;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+/*MAIN*/
+.btn {
+    background-color: #47adf1;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: solid 2px #47adf1;
+    text-decoration: solid;
+    font-size: 15px;
+}
+
+.btn2 {
+    border: solid 2px #dbdee1;
+    color: #dbdee1;
+    padding: 7px 15px;
+    border-radius: 10px;
+    text-decoration: solid;
+    font-size: 15px;
+}
+
+nav {
+    padding: 7px 30px;
+    border-bottom: 3px #dbdee1;
 }
